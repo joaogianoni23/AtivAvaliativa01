@@ -1,0 +1,19 @@
+
+  
+  /* Estilos da Sidebar */
+  .sidebar {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebarSection {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+
+  

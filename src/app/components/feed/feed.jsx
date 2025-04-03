@@ -1,7 +1,7 @@
-import styles from './card.module.css';
-import InteractionBar from '../interaction/interaction';
+import styles from './feed.module.css';
+import InteractionBar from '../interactionBar/interactionBar';
 
-const Card = ({ memes }) => {
+const Feed = ({ memes }) => {
     return (
         <section className={styles.feedSection}>
         <div className={styles.feedHeader}>
@@ -51,4 +51,4 @@ const Card = ({ memes }) => {
       </section>
     )
 }
-export default Card;
+export default Feed;
